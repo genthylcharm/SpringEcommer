@@ -1,0 +1,8 @@
+server:
+ port: 8088
+ spring:
+servlet:
+ multipart: 10MB
+ max-request-size: 10MB
+ api:
+  prefix:api/v1
